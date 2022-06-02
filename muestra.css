@@ -1,0 +1,41 @@
+
+.carta{
+    position: relative;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+
+
+.lado{
+    width: 80%;
+    height: 50%;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    position: absolute;
+   
+}
+
+ img {
+    display: inline-block;
+    margin:0 5px;
+    border-radius: 20px;
+}
+.carta:hover{
+    transform: rotatey(180deg);
+    -moz-transform: rotateY(180deg) ;
+}
+
+
+.atras{
+    background-color:tomato;
+    transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    padding: 1px;
+    text-align: center;
+
+
+}
+
